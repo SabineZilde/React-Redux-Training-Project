@@ -18,7 +18,6 @@ export default function NewTopicForm() {
       return;
     }
 
-    // dispatches add topic action
     dispatch(
       addTopic({
         id: uuidv4(),
